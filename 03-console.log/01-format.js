@@ -2,7 +2,7 @@
 
 const user ={
   name:'徐瑞婷',
-  age:41,
+  age:18,
   qq:'1263183452'
 };
 

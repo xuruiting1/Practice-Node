@@ -22,5 +22,5 @@ function help(){
 }
 
 function calc(){
-  log(arg + '=%s', eval(arg));
+  log(arg + '=%s', eval(arg));//其中放字符串，作用是计算string中的值
 }

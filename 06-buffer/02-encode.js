@@ -9,6 +9,6 @@ if(process.argv.length!==4){
 
 log('user name: %s\n password :%s',usr,pwd);
 
-const buf=new Buffer(usr + ':'+pwd)；
+const buf=new Buffer(usr + ':'+pwd);
 
 log('Base64:',buf.toString('Base64'));

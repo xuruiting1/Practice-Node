@@ -1,5 +1,5 @@
 
-const srt=process.argv[2];
+const str=process.argv[2];
 
 var buf=new Buffer(str,'base64');
 const info =buf.toString('utf8').split(':');
